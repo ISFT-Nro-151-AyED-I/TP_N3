@@ -26,9 +26,8 @@ int main()
         return 0;
     }
 
-/* Si modificamos el programa del volumen del cono para usar variables double (que ya lo están en el código anterior), no hay 
-una diferencia en el resultado final, pero sí en la precisión y el rango de valores que las variables pueden almacenar.
-Double puede almacenar números con decimales y tiene un rango mucho mayor que int. Esto es crucial para cálculos como el del 
-volumen del cono, donde los valores pueden no ser enteros y la precisión es importante.
-Si hubiéramos usado int para el radio o la altura, los valores decimales se habrían truncado (cortado), lo que habría llevado 
-a un resultado incorrecto. */
+/* Si modificamos el programa del volumen de la habitación y del cono para usar variables double, no hay una diferencia 
+en el resultado final, pero sí en la precisión y el rango de valores que las variables pueden almacenar. double puede 
+almacenar números con decimales y tiene un rango mucho mayor que int. Esto es crucial para cálculos como el del volumen 
+del cono, donde los valores pueden no ser enteros y la precisión es importante. Si hubiéramos usado int para el radio o 
+la altura, los valores decimales se habrían truncado (cortado), lo que habría llevado a un resultado incorrecto. */
